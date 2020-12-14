@@ -168,4 +168,18 @@
 // logInfoAbout('Коля', 1985)
 // logInfoAbout('Толя', 2023)
 
+// 9 Массивы
+
+const cars = ['Mazda', 'Opel', 'Ford']
+//const  cars = new Array('Mazda', 'Opel', 'Ford')
+// console.log(cars)
+// console.log(cars.length)
+// console.log(cars[1])
+// console.log(cars[0])
+// console.log(cars[3])
+//
+// cars[0] = 'Porsche'
+// cars[cars.length] = 'Mazda'
+// console.log(cars)
+
 
