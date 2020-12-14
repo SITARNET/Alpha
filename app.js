@@ -195,3 +195,25 @@
 // for (let car of cars) {
 //     console.log(car)
 // }
+
+// 11 Объекты
+
+const person = {
+    firstName: 'Vladilen',
+    lastName: 'Minin',
+    year: 1985,
+    languages: ['Ru', 'En', 'De'],
+    hasWife: false,
+    greet: function () {
+        console.log('greet from person')
+    }
+}
+
+console.log(person.firstName)
+console.log(person['lastName'])
+const key = 'year'
+console.log(person[key])
+person.hasWife = true
+person.isProgrammer = true
+console.log(person)
+person.greet()
