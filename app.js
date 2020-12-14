@@ -89,7 +89,7 @@
 //     console.log('Курс не получился')
 // }
 //
-const isReady = true
+// const isReady = true
 //
 // if (isReady === true) {
 //     console.log('Всё готово!')
@@ -101,7 +101,7 @@ const isReady = true
 //     console.log('Всё не готово!')
 // }
 
-isReady ? console.log('Всё готово!') : console.log('Всё не готово!') // Тернарное условие
+// isReady ? console.log('Всё готово!') : console.log('Всё не готово!') // Тернарное условие
 
 // const num1 = 42 // number
 // const num2 = '42' // string
@@ -143,3 +143,29 @@ isReady ? console.log('Всё готово!') : console.log('Всё не гот�
 // n1 = !true              // !t вернёт false
 // n2 = !false             // !f вернёт true
 // n3 = !"Cat"             // !t вернёт false
+
+// 8 Функции
+
+// function calculateAge (year) {
+//     return 2020 - year
+// }
+//
+// const myAge = calculateAge(1985)
+// console.log(myAge)
+//
+// console.log(calculateAge(1990))
+//
+// function logInfoAbout(name, year) {
+//     const age = calculateAge(year)
+//     if (age > 0) {
+//         console.log('Человек по имени ' + name + ' сейчас имеет возраст ' + age)
+//     } else {
+//         console.log('Это будущее!')
+//     }
+//
+// }
+// logInfoAbout('Владилен', 1995)
+// logInfoAbout('Коля', 1985)
+// logInfoAbout('Толя', 2023)
+
+
