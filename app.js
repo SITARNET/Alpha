@@ -170,7 +170,7 @@
 
 // 9 Массивы
 
-const cars = ['Mazda', 'Opel', 'Ford']
+//const cars = ['Mazda', 'Opel', 'Ford']
 //const  cars = new Array('Mazda', 'Opel', 'Ford')
 // console.log(cars)
 // console.log(cars.length)
@@ -182,4 +182,16 @@ const cars = ['Mazda', 'Opel', 'Ford']
 // cars[cars.length] = 'Mazda'
 // console.log(cars)
 
+// 10 Циклы
 
+// const cars = ['Mazda', 'Opel', 'Ford']
+//
+// for (let i = 0; i < cars.length; i++) {
+//     //console.log(i)
+//     const car = cars[i]
+//     console.log(car)
+// }
+//
+// for (let car of cars) {
+//     console.log(car)
+// }
