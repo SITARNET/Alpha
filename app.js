@@ -68,5 +68,45 @@
 
 // 5 Приоритет операторов
 
+// const fullAge = 26
+// const birthYear = 1993
+// const currentYear = 2020
+//
+// // > < >= <=
+// const isFullAge = currentYear - birthYear >= fullAge  // 26 >= 27 = true
+// console.log(isFullAge)
+
+
+// 6 Условные операторы
+
+// const courseStatus = 'pend' // ready, fail, pending
+//
+// if (courseStatus === 'ready') {
+//     console.log('Курс уже готов и его можно проходить')
+// } else if (courseStatus === 'pending') {
+//     console.log('Курс пока находится в стадии разработки')
+// } else {
+//     console.log('Курс не получился')
+// }
+//
+const isReady = true
+//
+// if (isReady === true) {
+//     console.log('Всё готово!')
+// }
+
+// if (isReady) {
+//     console.log('Всё готово!')
+// } else {
+//     console.log('Всё не готово!')
+// }
+
+isReady ? console.log('Всё готово!') : console.log('Всё не готово!') // Тернарное условие
+
+// const num1 = 42 // number
+// const num2 = '42' // string
+//
+// console.log(num1 === num2) // false - правильное пременение
+// console.log(num1 == num2) // true
 
 
