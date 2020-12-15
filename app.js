@@ -52,17 +52,24 @@
 
 // 3 Math
 
-console.log(Math.E) // 2.718281828459045
-console.log(Math.PI) // 3.141592653589793
+// console.log(Math.E) // 2.718281828459045
+// console.log(Math.PI) // 3.141592653589793
+//
+// console.log(Math.sqrt(25)) // квадратный корень = 5
+// console.log(Math.pow( 5, 3)) // 5 в 3 степени
+// console.log(Math.abs(-42)) // модуль = 42
+// console.log(Math.max(42, 12, 23, 11, 422)) // находит максимальное число = 422
+// console.log(Math.min(42, 12, 23, 11, 422)) // находит минимальное число = 11
+// console.log(Math.floor(4.9)) // округляет в меньшое число = 4
+// console.log(Math.ceil(4.9)) // округляет в большое число = 5
+// console.log(Math.round(4.9)) // округляет к ближайщему целому
+// console.log(Math.trunc(4.9)) // возвращает целую часть числа путём удаления всех дробных чисел
+// console.log(Math.random()) // случайное число
 
-console.log(Math.sqrt(25)) // квадратный корень = 5
-console.log(Math.pow( 5, 3)) // 5 в 3 степени
-console.log(Math.abs(-42)) // модуль = 42
-console.log(Math.max(42, 12, 23, 11, 422)) // находит максимальное число = 422
-console.log(Math.min(42, 12, 23, 11, 422)) // находит минимальное число = 11
-console.log(Math.floor(4.9)) // округляет в меньшое число = 4
-console.log(Math.ceil(4.9)) // округляет в большое число = 5
-console.log(Math.round(4.9)) // округляет к ближайщему целому
-console.log(Math.trunc(4.9)) // возвращает целую часть числа путём удаления всех дробных чисел
-console.log(Math.random()) // случайное число
 
+// 4 Example - вывести случайное целое число между двумя целыми числами
+
+function getRandomBetween(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min)
+}
+console.log(getRandomBetween(10, 42))
