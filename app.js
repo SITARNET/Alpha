@@ -1,4 +1,4 @@
-// // Number
+// 1 Number
 // const num = 42 // Integer целое число
 // const float = 42.42 // Float плавающая точка
 // const pow = 10e3 // Pow 10 в 3 степени
@@ -39,5 +39,15 @@
 // console.log((0.4 + 0.2).toFixed(1)) // 0.6 обрезает нули, строка
 // console.log(parseFloat((0.4 + 0.2).toFixed(1))) // Переводим в число с плавующей точкой
 
+// 2 BigInt
+console.log(typeof 90071992547409919999999n) // BigInt n
+console.log(90071992547409919999999n - 9007199254740991999999n)
+console.log(-90071992547409919999999n)
+// console.log(90071992547409919999999.222n) // Ошибка плавущей точки, только целое число
+
+// console.log(10n - 4) // error
+console.log(parseInt(10n) - 4)  // 6
+console.log(10n - BigInt(4)) // 6n
+console.log(5n - 2n) // 2n дробная часть отсекаеться
 
 
