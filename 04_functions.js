@@ -77,3 +77,4 @@ function createMember(name) {
 const logWidthLastName = createMember('Николай ')
 console.log(logWidthLastName('Sytar')) // name постоянно используеться
 console.log(logWidthLastName('Pupkin')) // name постоянно используеться
+
